@@ -53,7 +53,7 @@ class NeuralNetwork:
         #Layer 2: hidden to output
         #Z2 = A1 * W2 + b2
         self.Z2 = np.dot(self.A1, self.W2) + self.b2
-        self.A2 = selg.sigmoid(self.Z2)
+        self.A2 = self.sigmoid(self.Z2)
 
         return self.A2
 
@@ -78,3 +78,12 @@ print(X)
 
 print("\nExpected output (y):")
 print(y.T)
+
+predictions = nn.forward(X)
+print("\nNetwork predictions (untrained, will be random):")
+print(predictions.T)
+
+print("\n" + "="*50)
+print("Notice: Predictions are random because we haven't")
+print("trained the network yet! Next: Backpropagation!")
+print("="*50)
