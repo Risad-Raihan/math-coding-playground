@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+#I wanna do something with the weights
+
+
 np.random.seed(42)
 
 class NeuralNetwork:
