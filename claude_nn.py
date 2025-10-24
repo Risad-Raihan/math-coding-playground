@@ -2,8 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-#I wanna do something with the weights
 
+#I wanna do something with the weights , but now this is gonna be a pytorch
+#im gonna use pytorch for this, cpvyright 2024
 
 np.random.seed(42)
 
