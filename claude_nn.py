@@ -5,6 +5,8 @@ import pandas as pd
 
 #I wanna do something with the weights , but now this is gonna be a pytorch
 #im gonna use pytorch for this, cpvyright 2024
+# you can say that im a fool, and i sdont know very much
+#i miss the old days of coding in c and assembly     
 
 np.random.seed(42)
 
